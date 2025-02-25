@@ -35,18 +35,20 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        $request->validate([
-            'title' => 'required',
-            'author' => 'required',
-            'price' => 'required|numeric',
-        ]);
+{
+    $request->validate([
+        'title' => 'required',
+        'author' => 'required',
+        'price' => 'required|numeric',
+        'description' => 'nullable', // Thêm validation cho mô tả
+    ]);
 
-        Book::create($request->all());
+    Book::create($request->all());
 
-        return redirect()->route('books.index')
-                        ->with('success','Book created successfully.');
-    }
+    return redirect()->route('books.index')
+                    ->with('success','Book created successfully.');
+}
+
 
     /**
      * Display the specified resource.
@@ -78,18 +80,19 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Book $book)
-    {
-        $request->validate([
-            'title' => 'required',
-            'author' => 'required',
-            'price' => 'required|numeric',
-        ]);
+{
+    $request->validate([
+        'title' => 'required',
+        'author' => 'required',
+        'price' => 'required|numeric',
+        'description' => 'nullable', // Thêm validation cho mô tả
+    ]);
 
-        $book->update($request->all());
+    $book->update($request->all());
 
-        return redirect()->route('books.index')
-                        ->with('success','Book updated successfully');
-    }
+    return redirect()->route('books.index')
+                    ->with('success','Book updated successfully.');
+}
 
     /**
      * Remove the specified resource from storage.
