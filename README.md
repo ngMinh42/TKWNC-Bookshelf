@@ -20,24 +20,24 @@
 
 ## Sơ đồ cấu trúc/ chức năng:
 
-![Image](https://github.com/user-attachments/assets/4d43eb7a-0db1-4613-b0a7-4bf29a2d56cf)
+![Sơ đồ cấu trúc/ chức năng](https://github.com/user-attachments/assets/4d43eb7a-0db1-4613-b0a7-4bf29a2d56cf)
 
 ## Sơ đồ tuần tự:
-# Chức năng thêm sách:
+## Chức năng thêm sách:
 
-![Image](https://github.com/user-attachments/assets/5a86d2d1-8067-4b2b-a195-aa1be5b90c23)
+![Chức năng thêm sách](https://github.com/user-attachments/assets/5a86d2d1-8067-4b2b-a195-aa1be5b90c23)
 
-# Chức năng chỉnh sửa thông tin sách:
+## Chức năng chỉnh sửa thông tin sách:
 
-![Image](https://github.com/user-attachments/assets/4026f723-1896-4a29-aa2c-c494ce48fca2)
+![Chức năng chỉnh sửa thông tin sách](https://github.com/user-attachments/assets/4026f723-1896-4a29-aa2c-c494ce48fca2)
 
-# Chức năng xoá sách:
+## Chức năng xoá sách:
 
-![Image](https://github.com/user-attachments/assets/bb7cfc73-c67c-4265-bc60-50cbacba8d76)
+![Chức năng xoá sách](https://github.com/user-attachments/assets/bb7cfc73-c67c-4265-bc60-50cbacba8d76)
 
 ## GitHub Pages Dự Án
 [Truy cập dự án tại đây](https://github.com/ngMinh42/TKWNC-Bookshelf)
 
-## Link Demo: https://youtu.be/0zgMMM_WLdE
+## Link Demo:
 [DEMO](https://youtu.be/0zgMMM_WLdE)
 
