@@ -42,3 +42,7 @@ Nguyễn Đức Minh-23010302
 ## Link Demo:
 [DEMO](https://youtu.be/0zgMMM_WLdE)
 
+## Link Web Public:
+[Bookshelf](http://127.0.0.1:8000/books)
+
+
