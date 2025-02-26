@@ -36,7 +36,7 @@ Nguyễn Đức Minh-23010302
 
 ![Chức năng xoá sách](https://github.com/user-attachments/assets/bb7cfc73-c67c-4265-bc60-50cbacba8d76)
 
-## GitHub Pages Dự Án
+## Link Github Repository:
 [Truy cập dự án tại đây](https://github.com/ngMinh42/TKWNC-Bookshelf)
 
 ## Link Demo:
