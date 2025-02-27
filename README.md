@@ -10,13 +10,7 @@ Nguyễn Đức Minh-23010302
     - Thêm sách mới vào thư viện.
     - Sửa thông tin chi tiết của sách (tiêu đề, tác giả, giá, mô tả).
     - Xóa sách khỏi thư viện.
-
-## Công Nghệ Sử Dụng
-
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Backend:** PHP, Laravel Framework
-- **Database:** MySQL
-
+      
 ## Sơ đồ Dự Án:
 
 ## Sơ đồ cấu trúc/ chức năng:
