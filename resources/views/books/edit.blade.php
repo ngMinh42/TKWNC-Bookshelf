@@ -19,10 +19,6 @@
             <input type="text" name="author" id="author" value="{{ $book->author }}" class="form-control" required>
         </div>
         <div class="form-group">
-            <label for="price">Giá:</label>
-            <input type="number" name="price" id="price" value="{{ number_format($book->price, 3, '.', '.') }}" class="form-control" required step=".001">
-        </div>
-        <div class="form-group">
             <label for="description">Mô tả:</label>
             <textarea name="description" id="description" class="form-control">{{ $book->description }}</textarea>
         </div>

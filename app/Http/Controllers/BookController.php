@@ -12,11 +12,41 @@ class BookController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        $books = Book::all();
-        return view('books.index', compact('books'));
+    
+
+    public function index(Request $request)
+{
+    $books = Book::all();
+    $search = $request->input('search');
+    $sortBy = $request->input('sort_by', 'title_asc');
+
+    if ($search) {
+        $books = Book::where('title', 'LIKE', "%$search%")
+            ->orWhere('author', 'LIKE', "%$search%")
+            ->get();
+    } else {
+        if (!$sortBy) {
+            $books = Book::all();
+        } else {
+            switch ($sortBy) {
+                case 'title_asc':
+                    $books = Book::orderBy('title', 'asc')->get();
+                    break;
+                case 'title_desc':
+                    $books = Book::orderBy('title', 'desc')->get();
+                    break;
+                case 'author_asc':
+                    $books = Book::orderBy('author', 'asc')->get();
+                    break;
+                case 'author_desc':
+                    $books = Book::orderBy('author', 'desc')->get();
+                    break;
+            }
+        }
     }
+
+    return view('books.index', compact('books', 'search'));
+}
 
     /**
      * Show the form for creating a new resource.
@@ -39,7 +69,6 @@ class BookController extends Controller
     $request->validate([
         'title' => 'required',
         'author' => 'required',
-        'price' => 'required|numeric',
         'description' => 'nullable', // Thêm validation cho mô tả
     ]);
 
@@ -84,7 +113,6 @@ class BookController extends Controller
     $request->validate([
         'title' => 'required',
         'author' => 'required',
-        'price' => 'required|numeric',
         'description' => 'nullable', // Thêm validation cho mô tả
     ]);
 

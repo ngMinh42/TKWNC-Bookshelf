@@ -9,3 +9,4 @@ Route::get('/', function () {
 
 Route::resource('books', BookController::class);
 
+Route::get('/books/sorted', [BookController::class, 'indexSorted'])->name('books.sorted');

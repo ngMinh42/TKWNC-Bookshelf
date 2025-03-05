@@ -18,10 +18,6 @@
             <input type="text" name="author" id="author" class="form-control" required>
         </div>
         <div class="form-group">
-            <label for="price">Giá:</label>
-            <input type="number" name="price" id="price" class="form-control" required step=".001">
-        </div>
-        <div class="form-group">
             <label for="description">Mô tả:</label>
             <textarea name="description" id="description" class="form-control"></textarea>
         </div>
