@@ -34,7 +34,7 @@ Nguyễn Đức Minh-23010302
 [Truy cập dự án tại đây](https://github.com/ngMinh42/TKWNC-Bookshelf)
 
 ## Link Demo:
-[Demo](https://youtu.be/0zgMMM_WLdE)
+[Demo](https://youtu.be/CRyA6iVNxN0)
 
 ## Link Web Public:
 [Bookshelf](http://127.0.0.1:8000/books)
