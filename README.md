@@ -2,14 +2,17 @@ Nguyễn Đức Minh-23010302
 # Bookshelf - Trang Quản Lý Sách Cá Nhân
 
 ## Giới Thiệu Dự Án
-"Bookshelf" là một ứng dụng web cho phép người dùng quản lý bộ sưu tập sách cá nhân của mình một cách hiệu quả. Ứng dụng cung cấp các tính năng thêm, sửa, xóa sách. Ứng dụng được xây dựng bằng Laravel, một framework PHP mạnh mẽ và dễ sử dụng.
+"Bookshelf" là một ứng dụng web cho phép người dùng quản lý bộ sưu tập sách cá nhân của mình một cách hiệu quả. Ứng dụng cung cấp các tính năng thêm, sửa, xóa, tìm kiếm, sắp xếp sách. Ứng dụng được xây dựng bằng Laravel, một framework PHP mạnh mẽ và dễ sử dụng.
 
 ## Chức Năng Chính
 
 - **Quản Lý Sách:**
     - Thêm sách mới vào thư viện.
-    - Sửa thông tin chi tiết của sách (tiêu đề, tác giả, giá, mô tả).
+    - Xem chi tiết thông tin sách.
+    - Sửa thông tin chi tiết của sách (tiêu đề, tác giả, mô tả).
     - Xóa sách khỏi thư viện.
+    - Tìm kiếm sách.
+    - Sắp xếp sách theo thứ tự (tên sách, tên tác giả,...).
       
 ## Sơ đồ Dự Án:
 
